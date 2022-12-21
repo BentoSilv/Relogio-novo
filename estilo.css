@@ -1,0 +1,61 @@
+@font-face {
+    font-family:fonte;
+    src: url(fonte/DS-DIGIB.TTF);
+    font-weight: bold;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fonte;
+    
+}
+body{
+    background: #000;
+}
+
+.display{
+    display: flex;
+    background: rgb(223, 24, 24);
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 60px;
+    color: white;
+}
+.display {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: solid 1px skyblue;
+}
+
+@media screen and (max-width:678px) {
+    .display {
+        font-size: 30px;
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width:912px) {
+    .display {
+        font-size: 40px;
+        width: 100%;
+        
+    }
+}
+
+@media  (max-width:1024px) {
+    .display {
+        font-size: 40px;
+        width: 100%;
+        
+    }
+}
+
+
+
